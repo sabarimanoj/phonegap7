@@ -71,7 +71,10 @@ pp
   <preference name="android-installLocation"    value="auto" />
   <!-- android: app install location. 'auto' will choose. 'internalOnly' is device memory. 'preferExternal' is SDCard. -->
 
-
+ <icon src="icon.png" />
+ 
+  <icon src="res/icon/ios/icon-72.png"            gap:platform="ios"        width="72" height="72" />
+ 
   <plugins>
     <plugin name="Device"/>
     <plugin name="Logger"/>
